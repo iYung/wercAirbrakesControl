@@ -7,3 +7,4 @@
 maxHeight(currentHeight,estAirDensity,estCoeffDrag,currentSpeed);
 
 #endif /* maxHeight_hpp */
+
