@@ -4,5 +4,6 @@
 #include <Arduino.h> //needed for Serial.println
 #include <string.h> //needed for memcpy
 
-int foo(int a);
+double getAirDensity(double groundTemp, double groundPressure, double currHeight);
+
 #endif
