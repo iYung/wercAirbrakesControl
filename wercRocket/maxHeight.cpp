@@ -1,7 +1,7 @@
 
 
 #include "maxHeight.h"
-maxHeight(currentHeight,estAirDensity,estCoeffDrag,currentSpeed){
+maxHeight(double currentHeight,double estAirDensity,double estCoeffDrag,double currentSpeed){
   const double dryMass=10;//dry mass in Kg
   const double thereGoesGravity=9.8;
   const double crossArea=0.014637068;//cross section area in m^2
