@@ -1,5 +1,5 @@
 
-
+#include <math.h>
 #include "maxHeight.h"
 maxHeight(double currentHeight,double estAirDensity,double estCoeffDrag,double currentSpeed){
   const double dryMass=10;//dry mass in Kg
