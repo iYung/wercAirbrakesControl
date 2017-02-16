@@ -13,8 +13,8 @@ double getTargetHeight (double currentHeight, double burnoutHeight, double initi
   double waveShift=pi/(2*(target-burnoutHeight)); //How the sine wave is shifted
   double goalBallistic=currentHeight-burnoutHeight; //Determines where to start the wave so the airbreaks don't go nuts as soon as burnout occurs
   double objective=(targetAmplitude)*sin(waveShift*goalBallistic)+targetOffset;//calculates the function
-  if (currentHeight<target)//returns the calculated target height
+  if (currentHeight<target)//basically tells the airbreaks to stop everything because we overshot
   return objective;
-  else if (currentHeight>=target)//basically tells the airbreaks to stop everything because we overshot
+  else if (currentHeight>=target)//returns the calculated target height
   return target;  
 }
